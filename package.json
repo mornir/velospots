@@ -1,0 +1,13 @@
+{
+  "name": "velospot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "cd data && node index.js",
+    "dev": "live-server --open=web"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
