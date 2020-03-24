@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Velospot in Biel</title>
-    <link rel="icon" sizes="512x512" href="512x512_velospot.jpg" />
+    <!-- Icon in the highest resolution we need it for -->
+    <link rel="icon" sizes="192x192" href="images/icon-192x192.png" />
+
+    <!-- Apple Touch Icon (reuse 192px icon.png) -->
+    <link rel="apple-touch-icon" href="images/icon-192x192.png" />
     <meta name="theme-color" content="#c40a0d" />
     <meta
       name="description"
       content="Easily and quickly find all velospots in the city of Biel"
     />
+    <link rel="manifest" href="manifest.json" />
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
     <script src="index.js" type="module"></script>
     <link
