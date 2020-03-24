@@ -30,3 +30,8 @@ spots.forEach(spot => {
   // make a marker for each feature and add to the map
   new mapboxgl.Marker({ color: '#c40a0d' }).setLngLat(spot).addTo(map)
 })
+
+// Use the window load event to keep the page load performant
+window.addEventListener('load', () => {
+  navigator.serviceWorker.register('service-worker.js')
+})
