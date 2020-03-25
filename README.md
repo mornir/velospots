@@ -48,3 +48,7 @@ In the meantime, I build this map in literary under 1 hour. Data are coming from
 - No ads, no tracking
 - Installable on smartphone (progressive web app [PWA])
 - Offline support (coming soon)
+
+## Disclaimer
+
+I am not affiliated to the company behind Velospot. This project is open source, but the trademark and logo from Velospot stay of course the property of Velospot.
