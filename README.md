@@ -20,7 +20,7 @@ C'est pourquoi j'ai décidé de créer ma propre en carte en ligne avec toutes l
 Le code est open source et peut être consulté sur cette page.
 Les coordonnées des stations proviennent de [geo.admin.ch](https://data.geo.admin.ch/ch.bfe.bikesharing/).
 
-## Deutsch
+### Deutsch
 
 Ich benutze den Velospot-Service, aber ich habe keine gute Online-Karte gefunden, die alle Ausleihstationen auflistet, sodass ich sie auf meinem Smartphone einfach und schnell sehen kann.
 
@@ -32,12 +32,10 @@ Was die Velospot App betrifft, so funktioniert sie nicht und hat sehr schlechte 
 Deshalb habe ich beschlossen, meine eigene Online-Karte mit allen Velospots-Stationen zu erstellen.
 
 Der Code ist open-source und kann auf dieser Seite eingesehen werden.
-Die Koordinaten der Stationen stammen von [geo.admin.ch] (https://data.geo.admin.ch/ch.bfe.bikesharing/).
-
-
+Die Koordinaten der Stationen stammen von [geo.admin.ch](https://data.geo.admin.ch/ch.bfe.bikesharing/).
 
 ### English
 
-Since its introduction in Biel, the bike-sharing service Velospot only provided a paper and PDF map with all the spots. Their mobile app is rated two stars and doesn't work for the city of Biel. Spots are missing on Google Map and they don't display any map on [their website](https://www.velospot.ch/). From what I saw, it seems that they're building a [new website](https://www.velospot.info/). 
+Since its introduction in Biel, the bike-sharing service Velospot only provided a paper and PDF map with all the spots. Their mobile app is rated two stars and doesn't work for the city of Biel. Spots are missing on Google Map and they don't display any map on [their website](https://www.velospot.ch/). From what I saw, it seems that they're building a [new website](https://www.velospot.info/).
 
 In the meantime, I build this map in literary under 1 hour. Data are coming from [geo.admin.ch](https://data.geo.admin.ch/ch.bfe.bikesharing/) und I used [Mapbox](https://www.mapbox.com/).
