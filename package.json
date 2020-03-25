@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "seed": "cd data && node index.js",
-    "dev": "cd web && live-server"
+    "dev": "cd web && live-server",
+    "sw": "workbox generateSW workbox-config.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=12"
+  }
 }
