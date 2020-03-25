@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "seed": "cd data && node index.js",
-    "dev": "live-server --open=web"
+    "dev": "cd web && live-server"
   },
   "keywords": [],
   "author": "",
