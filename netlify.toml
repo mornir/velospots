@@ -1,8 +1,8 @@
 # Reverse proxy anything after "/analytics/".
 [[redirects]]
-from = "/analytics/*"
-to = "www.google-analytics.com/:splat"
-status = 200
+  from = "/analytics/*"
+  to = "www.google-analytics.com/:splat"
+  status = 200
 
 [dev]
   command = "yarn dev" # Command to start your dev server
