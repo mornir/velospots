@@ -6,7 +6,8 @@
   "scripts": {
     "seed": "cd data && node index.js",
     "dev": "cd web && live-server",
-    "sw": "workbox generateSW workbox-config.js"
+    "sw": "workbox generateSW workbox-config.js",
+    "precommit": "yarn sw"
   },
   "keywords": [],
   "author": "",
