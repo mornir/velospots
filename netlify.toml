@@ -1,9 +1,15 @@
 # Reverse proxy anything after "/analytics/".
 [[redirects]]
-  from = "/analytics/*"
-  to = "www.google-analytics.com/:splat"
+  from = "/analytics"
+  to = "https://www.google-analytics.com/collect"
   status = 200
   force = true
+
+# Rule for router history mode
+[[redirects]]
+  from = "/test"
+  to = "/manifest.json"
+  status = 200
 
 [dev]
   command = "yarn dev" # Command to start your dev server
