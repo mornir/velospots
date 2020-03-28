@@ -18,7 +18,19 @@
     <script src="./lib/mapbox.js"></script>
     <script src="./index.js" type="module"></script>
     <link href="./lib/mapbox.css" rel="stylesheet" />
-
+    <script async src="./analytics.js"></script>
+    <script>
+      window.ga =
+        window.ga ||
+        function() {
+          ;(ga.q = ga.q || []).push(arguments)
+        }
+      ga.l = +new Date()
+      ga('create', 'UA-162089685-1', 'auto')
+      ga('set', 'anonymizeIp', true)
+      ga('send', 'pageview')
+    </script>
+   
     <style>
       #map {
         width: 100%;
